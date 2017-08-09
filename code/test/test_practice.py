@@ -9,4 +9,4 @@ def test_f_scalar():
 
 def test_f_array():
     assert f([2]) == np.array([4])
-    assert f([5, 6, 7]) == np.array([25, 36, 49])
+    assert np.all(f([5, 6, 7]) == np.array([25, 36, 49]))
