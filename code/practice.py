@@ -1,4 +1,5 @@
 
+import numpy as np
 
 def f(x):
-    return x**2
+    return np.array(x)**2
